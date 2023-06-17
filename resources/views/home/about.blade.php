@@ -2,6 +2,8 @@
 
 @section('title', 'About Us')
 
+@section('class', 'sub_page')
+
 @section('content')
 
 <!-- about section -->

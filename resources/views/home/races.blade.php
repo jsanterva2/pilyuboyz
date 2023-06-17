@@ -2,6 +2,8 @@
 
 @section('title', 'Races')
 
+@section('class', 'sub_page')
+
 @section('content')
 
 <!-- races section -->
