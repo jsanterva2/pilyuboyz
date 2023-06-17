@@ -45,19 +45,19 @@
           <div class="contact_nav" id="">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="service.html">
+                <a class="nav-link" href="{{route('home.trails')}}">
                   <img src="{{ URL::asset('images/location.png'); }}" alt="" />
-                  <span>Location</span>
+                  <span>Bike Trail</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{route('home.contact')}}">
+                <a class="nav-link">
                   <img src="{{ URL::asset('images/call.png'); }}" alt="" />
                   <span>Call : +966 552211444</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{route('home.contact')}}">
+                <a class="nav-link">
                   <img src="{{ URL::asset('images/envelope.png'); }}" alt="" />
                   <span>pilyuboyz@gmail.com</span>
                 </a>
@@ -100,22 +100,22 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{{route('home.contact')}}">Get Involve</a>
                   </li>
-                  <li class="nav-item">
+                  {{--  <li class="nav-item">
                     <a class="nav-link" href="{{route('home.login')}}">Login</a>
-                  </li>
+                  </li>  --}}
                 </ul>
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                {{--  <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                   <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
+                </form>  --}}
               </div>
             </div>
           </nav>
         </div>
       </div>
       <!-- carousel here! -->
-      @section('carousel')
-      @show
-    </section>
+        @section('carousel')
+        @show
+      </section>
     <!-- end slider section -->
   </div>
 

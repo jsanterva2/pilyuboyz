@@ -3,7 +3,6 @@
 @section('title', 'Home Page')
 
 @section('carousel')
-    @parent
     <div class="slider_container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -118,7 +117,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis
           </p>
-          <a href="">
+          <a href="{{route('home.about')}}">
             Read More
           </a>
         </div>
@@ -127,16 +126,16 @@
   </section>
   <!-- end about section -->
 
-  <!-- service section -->
+  <!-- riders section -->
 
-  <section class="service_section layout_padding">
+  <section class="riders_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Our Services
+          Our Riders
         </h2>
       </div>
-      <div class="service_container">
+      <div class="riders_container">
         <div class="box">
           <img src="images/s-1.jpg" alt="">
           <h6 class="visible_heading">
@@ -225,7 +224,7 @@
     </div>
   </section>
 
-  <!-- end service section -->
+  <!-- end riders section -->
 
 
   <!-- Us section -->

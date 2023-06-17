@@ -42,6 +42,10 @@ Route::get('/contact', function () {
     return view('home.contact');
 })->name('home.contact');
 
+Route::get('/trails', function () {
+    return view('home.trails');
+})->name('home.trails');
+
 Route::get('/login', function () {
     return view('home.login');
 })->name('home.login');
